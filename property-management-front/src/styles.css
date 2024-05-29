@@ -1,0 +1,33 @@
+/* styles.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.columns-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+.column {
+  width: calc(
+    33.33% - 10px
+  ); /* Adjust width to fit three columns with spacing */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.column h2 {
+  text-align: center;
+}
+
+.property-card {
+  margin-bottom: 10px; /* Add margin between property cards */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
